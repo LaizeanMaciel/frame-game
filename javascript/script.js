@@ -30,7 +30,7 @@ function checkGuess () {
     const userGuess = answerInput.value.trim().toLowerCase()
     const correctAnswer = frames[currentFrameIndex].answer.toLowerCase();
     if (userGuess === '') {
-        alert('erro')
+        result.textContent = 'Por favor, digite o dome do filme!'
     } else if (userGuess === correctAnswer) {
        result.textContent = 'Correto! ✅'
     } else {
