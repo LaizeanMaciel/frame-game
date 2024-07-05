@@ -1,14 +1,14 @@
 const frames = [
-    {src: '../src/images/frame1.jpg', answer: 'o iluminado'},
-    {src: '../src/images/frame2.jpg', answer: 'sexta feira 13 parte 2'},
-    {src: '../src/images/frame3.png', answer: 'simplesmente acontece'},
-    {src: '../src/images/frame4.jpg', answer: 'hereditario'},
-    {src: '../src/images/frame5.png', answer: 'rei leão'},
-    {src: '../src/images/frame6.jpg', answer: 'dez coisas que odeio em você'},
-    {src: '../src/images/frame7.jpg', answer: 'homem aranha 2'},
-    {src: '../src/images/frame8.jpg', answer: 'avatar'},
-    {src: '../src/images/frame9.jpg', answer: 'vingadores'},
-    {src: '../src/images/frame10.jpg', answer: 'click'},
+    {src: '../images/frame1.jpg', answer: 'o iluminado'},
+    {src: '../images/frame2.jpg', answer: 'sexta feira 13 parte 2'},
+    {src: '../images/frame3.png', answer: 'simplesmente acontece'},
+    {src: '../images/frame4.jpg', answer: 'hereditario'},
+    {src: '../images/frame5.png', answer: 'rei leão'},
+    {src: '../images/frame6.jpg', answer: 'dez coisas que odeio em você'},
+    {src: '../images/frame7.jpg', answer: 'homem aranha 2'},
+    {src: '../images/frame8.jpg', answer: 'avatar'},
+    {src: '../images/frame9.jpg', answer: 'vingadores'},
+    {src: '../images/frame10.jpg', answer: 'click'},
 ];
 
 const movieFrame = document.querySelector('#movie_frame')
