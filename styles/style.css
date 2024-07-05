@@ -151,6 +151,92 @@ body {
     font-size: 30px;
 }
 
+@media screen and (max-width: 425px) {
+   
+    body {
+        
+        background-color: #174FA9;
+        background-image: none;
+       
+    }
+    
+
+    #container {
+        width: 400px;
+    }
+
+    img {
+        width: 300px;
+        height: 200px;
+        
+     }
+
+     #next_box button {
+        padding: 5px;
+        border-radius: 50%;
+        border: none;
+        cursor: pointer;
+        box-shadow: 2px 2px 2px #000;
+        display: flex;
+        align-items: center;
+    }
+
+    #next_box p {  
+        display: none;
+    }
+
+    
+}
+
+@media screen and (max-width: 375px) {
+   
+
+    #container {
+        width: 350px;
+    }
+
+    img {
+        width: 280px;
+        height: 200px;
+        
+     }
+
+     #next_box button {
+        padding: 3px;
+        border-radius: 50%;
+        border: none;
+        cursor: pointer;
+        box-shadow: 2px 2px 2px #000;
+        display: flex;
+        align-items: center;
+    }
+
+    #next_box p {  
+        display: none;
+    }
+
+    #description {
+        font-size: 13px;
+        font-family: 'Poppins';
+        color: #fff;
+        text-shadow: 2px 2px 4px #000;
+    }
+
+
+    #result {
+        margin-bottom: 12px;
+    }
+
+    #game_card {
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
+    }
+    
+}
+
+
+
 
 
 

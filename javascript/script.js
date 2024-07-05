@@ -31,6 +31,7 @@ function checkGuess () {
     const correctAnswer = frames[currentFrameIndex].answer.toLowerCase();
     if (userGuess === '') {
         result.textContent = 'Por favor, digite o dome do filme!'
+        result.style.fontSize = '16px'; // Ajuste o tamanho da fonte conforme necessário
     } else if (userGuess === correctAnswer) {
        result.textContent = 'Correto! ✅'
     } else {
